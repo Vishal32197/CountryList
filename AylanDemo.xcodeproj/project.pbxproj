@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9522692D2B31E80700B1027E /* Stevia in Frameworks */ = {isa = PBXBuildFile; productRef = 9522692C2B31E80700B1027E /* Stevia */; };
+		952269312B31E96A00B1027E /* CountryListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952269302B31E96A00B1027E /* CountryListViewModel.swift */; };
+		952269332B31E9FD00B1027E /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952269322B31E9FD00B1027E /* CountryListViewController.swift */; };
+		952269352B31F81C00B1027E /* CountryListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952269342B31F81C00B1027E /* CountryListModel.swift */; };
+		952269382B31F86100B1027E /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952269372B31F86100B1027E /* APIClient.swift */; };
+		9522693A2B31F86C00B1027E /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952269392B31F86C00B1027E /* Route.swift */; };
+		9522693C2B31F89100B1027E /* Environment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9522693B2B31F89100B1027E /* Environment.swift */; };
+		9522693E2B31F92100B1027E /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9522693D2B31F92100B1027E /* HTTPMethod.swift */; };
+		952269402B31FADA00B1027E /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9522693F2B31FADA00B1027E /* NetworkService.swift */; };
+		952269422B321AEE00B1027E /* CountryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952269412B321AEE00B1027E /* CountryListTableViewCell.swift */; };
+		957D5FB52B31E5A9000DA771 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D5FB42B31E5A9000DA771 /* AppDelegate.swift */; };
+		957D5FB72B31E5A9000DA771 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 957D5FB62B31E5A9000DA771 /* SceneDelegate.swift */; };
+		957D5FBE2B31E5AA000DA771 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 957D5FBD2B31E5AA000DA771 /* Assets.xcassets */; };
+		957D5FC12B31E5AA000DA771 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 957D5FBF2B31E5AA000DA771 /* LaunchScreen.storyboard */; };
+		A9942AF7A994F29E56D312E7 /* Pods_AylanDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FC8902C07F8AC3912836C52 /* Pods_AylanDemo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13DF973375FD9F5ACE5098F9 /* Pods-AylanDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AylanDemo.debug.xcconfig"; path = "Target Support Files/Pods-AylanDemo/Pods-AylanDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		2FC8902C07F8AC3912836C52 /* Pods_AylanDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AylanDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		92556D9F15F049B27393D598 /* Pods-AylanDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AylanDemo.release.xcconfig"; path = "Target Support Files/Pods-AylanDemo/Pods-AylanDemo.release.xcconfig"; sourceTree = "<group>"; };
+		952269302B31E96A00B1027E /* CountryListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewModel.swift; sourceTree = "<group>"; };
+		952269322B31E9FD00B1027E /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
+		952269342B31F81C00B1027E /* CountryListModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListModel.swift; sourceTree = "<group>"; };
+		952269372B31F86100B1027E /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		952269392B31F86C00B1027E /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
+		9522693B2B31F89100B1027E /* Environment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Environment.swift; sourceTree = "<group>"; };
+		9522693D2B31F92100B1027E /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		9522693F2B31FADA00B1027E /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		952269412B321AEE00B1027E /* CountryListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListTableViewCell.swift; sourceTree = "<group>"; };
+		957D5FB12B31E5A9000DA771 /* AylanDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AylanDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		957D5FB42B31E5A9000DA771 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		957D5FB62B31E5A9000DA771 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		957D5FBD2B31E5AA000DA771 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		957D5FC02B31E5AA000DA771 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		957D5FC22B31E5AA000DA771 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		957D5FAE2B31E5A9000DA771 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9522692D2B31E80700B1027E /* Stevia in Frameworks */,
+				A9942AF7A994F29E56D312E7 /* Pods_AylanDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		40E4A8EEEA2E53FC04A7F00C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				13DF973375FD9F5ACE5098F9 /* Pods-AylanDemo.debug.xcconfig */,
+				92556D9F15F049B27393D598 /* Pods-AylanDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		950FFEFE2B32274D00B487FA /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				952269302B31E96A00B1027E /* CountryListViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		950FFEFF2B32275500B487FA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				952269342B31F81C00B1027E /* CountryListModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		950FFF002B32275E00B487FA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				952269412B321AEE00B1027E /* CountryListTableViewCell.swift */,
+				952269322B31E9FD00B1027E /* CountryListViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		9522692E2B31E94200B1027E /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				957D5FB62B31E5A9000DA771 /* SceneDelegate.swift */,
+				957D5FB42B31E5A9000DA771 /* AppDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		9522692F2B31E94A00B1027E /* Module */ = {
+			isa = PBXGroup;
+			children = (
+				950FFF002B32275E00B487FA /* View */,
+				950FFEFF2B32275500B487FA /* Model */,
+				950FFEFE2B32274D00B487FA /* ViewModel */,
+			);
+			path = Module;
+			sourceTree = "<group>";
+		};
+		952269362B31F82500B1027E /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				952269372B31F86100B1027E /* APIClient.swift */,
+				952269392B31F86C00B1027E /* Route.swift */,
+				9522693B2B31F89100B1027E /* Environment.swift */,
+				9522693D2B31F92100B1027E /* HTTPMethod.swift */,
+				9522693F2B31FADA00B1027E /* NetworkService.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		957D5FA82B31E5A9000DA771 = {
+			isa = PBXGroup;
+			children = (
+				957D5FB32B31E5A9000DA771 /* AylanDemo */,
+				957D5FB22B31E5A9000DA771 /* Products */,
+				40E4A8EEEA2E53FC04A7F00C /* Pods */,
+				B8AC3F9DBA00116840BC4C18 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		957D5FB22B31E5A9000DA771 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				957D5FB12B31E5A9000DA771 /* AylanDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		957D5FB32B31E5A9000DA771 /* AylanDemo */ = {
+			isa = PBXGroup;
+			children = (
+				952269362B31F82500B1027E /* Networking */,
+				9522692F2B31E94A00B1027E /* Module */,
+				9522692E2B31E94200B1027E /* Delegates */,
+				957D5FBD2B31E5AA000DA771 /* Assets.xcassets */,
+				957D5FBF2B31E5AA000DA771 /* LaunchScreen.storyboard */,
+				957D5FC22B31E5AA000DA771 /* Info.plist */,
+			);
+			path = AylanDemo;
+			sourceTree = "<group>";
+		};
+		B8AC3F9DBA00116840BC4C18 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FC8902C07F8AC3912836C52 /* Pods_AylanDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		957D5FB02B31E5A9000DA771 /* AylanDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 957D5FC52B31E5AA000DA771 /* Build configuration list for PBXNativeTarget "AylanDemo" */;
+			buildPhases = (
+				00EA0CABD25EDB46609D43B8 /* [CP] Check Pods Manifest.lock */,
+				957D5FAD2B31E5A9000DA771 /* Sources */,
+				957D5FAE2B31E5A9000DA771 /* Frameworks */,
+				957D5FAF2B31E5A9000DA771 /* Resources */,
+				1BB9767CFAE53A0BE5568DCE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AylanDemo;
+			packageProductDependencies = (
+				9522692C2B31E80700B1027E /* Stevia */,
+			);
+			productName = AylanDemo;
+			productReference = 957D5FB12B31E5A9000DA771 /* AylanDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		957D5FA92B31E5A9000DA771 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					957D5FB02B31E5A9000DA771 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 957D5FAC2B31E5A9000DA771 /* Build configuration list for PBXProject "AylanDemo" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 957D5FA82B31E5A9000DA771;
+			packageReferences = (
+				9522692B2B31E80700B1027E /* XCRemoteSwiftPackageReference "Stevia" */,
+			);
+			productRefGroup = 957D5FB22B31E5A9000DA771 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				957D5FB02B31E5A9000DA771 /* AylanDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		957D5FAF2B31E5A9000DA771 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				957D5FC12B31E5AA000DA771 /* LaunchScreen.storyboard in Resources */,
+				957D5FBE2B31E5AA000DA771 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		00EA0CABD25EDB46609D43B8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AylanDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		1BB9767CFAE53A0BE5568DCE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AylanDemo/Pods-AylanDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AylanDemo/Pods-AylanDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AylanDemo/Pods-AylanDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		957D5FAD2B31E5A9000DA771 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952269402B31FADA00B1027E /* NetworkService.swift in Sources */,
+				957D5FB52B31E5A9000DA771 /* AppDelegate.swift in Sources */,
+				9522693C2B31F89100B1027E /* Environment.swift in Sources */,
+				952269422B321AEE00B1027E /* CountryListTableViewCell.swift in Sources */,
+				952269352B31F81C00B1027E /* CountryListModel.swift in Sources */,
+				957D5FB72B31E5A9000DA771 /* SceneDelegate.swift in Sources */,
+				952269312B31E96A00B1027E /* CountryListViewModel.swift in Sources */,
+				9522693E2B31F92100B1027E /* HTTPMethod.swift in Sources */,
+				952269332B31E9FD00B1027E /* CountryListViewController.swift in Sources */,
+				9522693A2B31F86C00B1027E /* Route.swift in Sources */,
+				952269382B31F86100B1027E /* APIClient.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		957D5FBF2B31E5AA000DA771 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				957D5FC02B31E5AA000DA771 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		957D5FC32B31E5AA000DA771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		957D5FC42B31E5AA000DA771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		957D5FC62B31E5AA000DA771 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13DF973375FD9F5ACE5098F9 /* Pods-AylanDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AylanDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AylanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		957D5FC72B31E5AA000DA771 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92556D9F15F049B27393D598 /* Pods-AylanDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = AylanDemo/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.AylanDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		957D5FAC2B31E5A9000DA771 /* Build configuration list for PBXProject "AylanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957D5FC32B31E5AA000DA771 /* Debug */,
+				957D5FC42B31E5AA000DA771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		957D5FC52B31E5AA000DA771 /* Build configuration list for PBXNativeTarget "AylanDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				957D5FC62B31E5AA000DA771 /* Debug */,
+				957D5FC72B31E5AA000DA771 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		9522692B2B31E80700B1027E /* XCRemoteSwiftPackageReference "Stevia" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/freshOS/Stevia";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		9522692C2B31E80700B1027E /* Stevia */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 9522692B2B31E80700B1027E /* XCRemoteSwiftPackageReference "Stevia" */;
+			productName = Stevia;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 957D5FA92B31E5A9000DA771 /* Project object */;
+}
